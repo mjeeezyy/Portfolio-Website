@@ -1,0 +1,262 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, p, ul, li {
+	font-family: 'Jura', Arial, sans-serif;
+}
+
+.container {
+	max-height: 940px;
+}
+
+body {
+	background: url("../img/body.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+span {
+	color: #c3ab52;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.page-header .container {
+	height: 42px;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+}
+
+.page-header p {
+	color: #c3ab52;
+	font-size: 30px;
+	float: left;
+	word-spacing: 20px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #201511;
+}
+
+.page-header .container .sig {
+	width: 3%;
+	padding: 5px;
+	border: 1px solid transparent;
+
+}
+
+
+.portfolio h1 {
+	color: #c3ab52;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #201511;
+	font-family: 'Jura', Arial, sans-serif;
+}
+
+.col-md-4 {
+	padding-top: 30px;
+}
+
+a .image {
+	width: 100%;
+	display: inline-block;
+	padding: 20px;
+	margin: auto;
+}
+
+a .image:hover {
+	opacity: 0.8;
+}
+
+.footer {
+	margin-top: 30px;
+}
+
+.footer p {
+	color: #c3ab52;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #201511;
+	float: left;
+	font-size: 17px;
+}
+
+.footer .right {
+	float: right;
+}
+
+.fa {
+    border-radius: 50%;
+    text-shadow: 3px 3px #201511;
+    color: #c3ab52;
+    margin: auto;
+    padding-left: 80px;
+}
+
+.footer a:link {
+	color: #c3ab52;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: #c3ab52;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #13656c;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+  .header .container {
+  	height: 25px;
+  }
+
+  .header .container li {
+    font-size: 10px;
+  }
+
+  .header p {
+  	font-size: 16px;
+  }
+
+  .header .container .sig {
+  	width: 6%;
+  }
+
+  a .image {
+  	width: 70%;
+  	display: block;
+  }
+
+  .col-md-4 {
+  	padding-top: 5px;
+  }
+
+  .portfolio h1 {
+  	font-size: 18px;
+  }
+
+  .footer {
+  	display: none;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+	.footer {
+		display: none;
+	}
+
+	a .image {
+		width: 75%;
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 725px) {
+	.header .container li {
+		font-size: 15px;
+	}
+
+	.header .container {
+		height: 25px;
+	}
+
+	.header .container p {
+		font-size: 18px;
+	}
+
+	.header .container .sig {
+		width: 3%;
+	}
+
+	a .image {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 476px) {
+	.header .container li {
+		font-size: 10px;
+	}
+
+	.header .container p {
+		font-size: 14px;
+		padding-top: 2px;
+	}
+
+	.header .container .sig {
+		width: 7%;
+	}
+
+	.header .container {
+		height: 21px;
+	}
+
+	body {
+		background-size: cover;
+		-webkit-background-size: cover;
+	}
+
+	a .image {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 371px) {
+	.header .container li {
+		font-size: 8px;
+	}
+
+	.header .container p {
+		font-size: 10px;
+        margin-top: 4px;
+	}
+
+	.header .container {
+		height: 20px;
+	}
+}
+
